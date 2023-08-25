@@ -1,0 +1,175 @@
+.nameCountry {
+    width: 55%;
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(8, 0, 122), 0 0 10px #fff, 0 0 15px #fff,
+      0 0 20px #c8d1d2, 0 0 30px #c8d1d2, 0 0 40px #c8d1d2;
+  }
+  
+  .backHome {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    padding: 10px 20px; /*forma de boton */
+    color: #c8d1d2;
+    transition: 0.5s;
+    letter-spacing: 3px; /*espacio entre letras */
+    box-shadow: 0 0 5px #c8d1d2, 0 0 5px #c8d1d2, 0 0 5px #c8d1d2;
+    border-radius: 100px 0px 0px 100px;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+  }
+  
+  .backHome:hover {
+    background: #c8d1d2;
+    color: #050801;
+    box-shadow: 0 0 5px #c8d1d2, 0 0 25px #c8d1d2, 0 0 50px #c8d1d2,
+      0 0 700px #c8d1d2;
+  }
+  
+  /* ------------------------------------------------------- */
+  .containerAll {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  /* -------------------------------------------------- */
+  .containerDetail {
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  /* ------------------------------------------------------- */
+  .containerflags {
+    position: relative;
+    height: 300px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageFlag {
+    max-width: 500px;
+    max-height: 300px;
+    box-shadow: 5px 5px 15px #050801, 5px 5px 25px #050801;
+  }
+  
+  /* ---------------------------------------------------- */
+  .containerCountry {
+    height: 300px;
+    width: 30%;
+    min-width: 350px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.829);
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px #050801, 5px 5px 25px #050801;
+  }
+  
+  .containerData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;
+  }
+  
+  .containerData p {
+    margin-top: 0px;
+    font-size: larger;
+    color: darkblue;
+    font-weight: 700;
+  }
+  
+  .containerDataResult {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .containerDataResult p {
+    margin-top: 0px;
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* ------------------------------------------------------- */
+  
+  .cardActivity {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.521);
+    margin-bottom: 3%;
+  }
+  
+  .cotainerColum {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cotainerActivity {
+    width: 35%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .cotainerActivity p {
+    margin-top: 0px;
+    font-size: medium;
+    color: darkblue;
+    font-weight: 700;
+  }
+  
+  .containerDataActivity {
+    margin-left: 5%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .containerDataActivity p {
+    margin-top: 0px;
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .nameActivity {
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(8, 0, 122), 0 0 10px #fff, 0 0 15px #fff,
+      0 0 20px #c8d1d2, 0 0 30px #c8d1d2, 0 0 40px #c8d1d2;
+  }
+  
+  .containerCardsActivity {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .ContainerActivitiesDetail {
+    width: 90%;
+  }
+
+  .countryFail {
+    color: rgb(17, 17, 17);
+    text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px rgb(75, 2, 2);
+  }

@@ -1,0 +1,193 @@
+.containerAllCreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  
+  .containerFrom {
+    background: rgb(20, 194, 194);
+    background: linear-gradient(#79a8a9, #ffffff);
+    padding: 40px;
+    border-radius: 30px;
+    width: 240px;
+    box-shadow: 2px 2px 25px #d1d2e2;
+  }
+  
+  .titleFroms {
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 1px;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(8, 0, 122), 0 0 10px #fff, 0 0 15px #fff,
+      0 0 20px #c8d1d2, 0 0 30px #c8d1d2, 0 0 40px #c8d1d2;
+  }
+  
+  .containerDataSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .errors {
+    color: firebrick;
+    font-size: small;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-style: italic;
+  }
+  
+  .sinError {
+    color: #ffffff00;
+    font-size: small;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-style: italic;
+  }
+  
+  .inputData {
+    width: 240px;
+    border: transparent;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .inputDataDuration {
+    width: 190px;
+    border: transparent;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+  }
+  label {
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+  }
+  .pTitle {
+    margin-top: 0;
+    margin-bottom: -15px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  
+  /* //------------------------------------------------------------------ */
+  .ContainerCountrySelectAll {
+    width: 90%;
+    margin: 0% 3% 0% 3%;
+  }
+  
+  .xxx {
+    width: 80%;
+    display: flex;
+  }
+  
+  .ContainerCountrySelect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contrySelect {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    color: #050801;
+    margin: 10px;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  .contrySelect img {
+    object-fit: cover;
+    height: 50px;
+    width: 60px;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  .nameContrySelect {
+    font-size: small;
+    font-weight: 700;
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .buttonSubmit {
+    padding: 10px 30px; /*forma de boton */
+    color: #c8d1d2;
+    transition: 0.5s;
+    letter-spacing: 3px; /*espacio entre letras */
+    box-shadow: 0 0 40px #c8d1d2;
+    border-radius: 50px;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+  }
+  .buttonSubmit:hover {
+    background: #c8d1d2;
+    color: #050801;
+    box-shadow: 0 0 5px #c8d1d2, 0 0 25px #c8d1d2, 0 0 50px #c8d1d2,
+      0 0 700px #c8d1d2;
+  }
+  .buttonSubmit:disabled {
+    padding: 10px 30px; /*forma de boton */
+    color: #141414;
+    letter-spacing: 3px; /*espacio entre letras */
+    border-radius: 50px;
+    background-color: rgb(105, 105, 105);
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    box-shadow: 0 0 0 transparent;
+  }
+  .buttonSubmit:disabled:hover {
+    background: rgb(105, 105, 105);
+    color: #050801;
+  }
+  
+  .butonX {
+    color: #fff;
+    background-color: darkred;
+    height: 50px;
+    border-radius: 0px 15px 15px 0px;
+    border: transparent;
+  }
+  .butonX:hover {
+    box-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px rgb(75, 2, 2);
+  }
+  
+  .titleListContries {
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(0, 54, 3), 0 0 10px #fff, 0 0 15px #139b01,
+      0 0 20px #017c15, 0 0 30px #06ee2c, 0 0 40px #0aff33;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .titleFroms,
+    .titleListContries {
+      font-size: 15px;
+    }
+    /* .containerAllCreate {
+    } */
+    .xxx {
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+    }
+    .containerFrom {
+      display: flexbox;
+      padding: 20px 30px 10px 30px;
+    }
+  }
