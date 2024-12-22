@@ -1,0 +1,21 @@
+.barra:hover {
+    width: 300px;
+  
+    background-size: 30px;
+    padding: 10px 10px 10px 50px;
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0 0 5px #c8d1d2, 0 0 5px #c8d1d2, 0 0 5px #c8d1d2;
+  }
+  .barra:focus {
+    width: 300px;
+    color: darkblue;
+  
+    background-size: 30px;
+    padding: 10px 10px 10px 50px;
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0 0 5px #c8d1d2, 0 0 5px #c8d1d2, 0 0 5px #c8d1d2;
+  }
+  
+ 
